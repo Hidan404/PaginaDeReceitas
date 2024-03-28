@@ -9,7 +9,7 @@
 
 body{
     display: flex;
-    
+    height: auto;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -47,4 +47,84 @@ img {
 .container-top p {
     color: #57524E;
     padding-left: 75px;
+}
+
+.list-top {
+    
+}
+.list-top {
+    width: 680px;
+    margin-left: 70px;
+    background-color: #f3e6d7f8;
+    padding: 4px;
+    border-radius: 15px;
+    color: #57524E;
+}
+
+.list-top h4 {
+    color: #f70078;
+    font-size: 25px;
+    padding-left: 25px;
+}
+
+.list-top ul {
+    margin-left: 10px;
+}
+.list-top strong {
+    margin-left: 15px;
+}
+
+.title-ingredientes {
+    margin-left: 70px;
+    color: #f70078;
+    font-size: 25px;
+}
+
+.list-center {
+    color: #57524E;
+    padding-left: 50px;
+}
+
+.list-center li {
+    margin: 14px;
+}
+
+hr {
+    width: 90%;
+    opacity: .5;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.list-ordenada {
+    color: #57524E;
+    padding-left: 45px;
+    padding-bottom: 15px;
+}
+
+.list-ordenada li {
+    margin: 14px;
+}
+
+.title-nutrientes {
+    margin-left: 70px;
+    color: #f70078;
+    font-size: 25px;
+    
+}
+
+.title-footer {
+    margin-bottom: 15px;
+}
+.title-footer p {
+    color: #57524E;
+    padding-left: 70px;
+    padding-bottom: 15px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 10px;
 }
