@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap')
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #decab6;
+}
+
+.container {
+    width: 840px;
+    height: auto;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+
+}
+
+picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    margin-bottom: 45px;
+}
+
+img {
+    width: 680px;
+    border-radius: 15px;
+}
+
+.container-top h1{
+    font-family: "Young Serif", serif;
+    font-weight: 800;
+    font-size: 48px;
+    padding-left: 75px;  
+    
+}
+.container-top p {
+    color: #57524E;
+    padding-left: 75px;
+}
