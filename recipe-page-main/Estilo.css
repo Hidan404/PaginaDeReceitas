@@ -146,3 +146,76 @@ hr {
 .box strong {
     color: #c71069;
 }
+
+@media screen and (max-width: 480px) {
+    body {
+      padding: 20px;
+    }
+  
+    .container {
+      width: 90%;
+    }
+  
+    img {
+      width: 100%;
+    }
+  
+    .container-top h1 {
+      font-size: 36px;
+      padding-left: 0; 
+    }
+  
+    .container-top p {
+      padding-left: 0; 
+    }
+  
+    .list-top,
+    .list-center,
+    .list-ordenada {
+      margin-left: 0;
+      padding-left: 0;
+    }
+  
+    .title-ingredientes,
+    .title-nutrientes {
+      margin-left: 0;
+    }
+  
+    .list-top ul,
+    .list-center,
+    .list-ordenada {
+      padding-left: 15px;
+    }
+  
+    .box {
+      width: 90%;
+    }
+  }
+  
+@media screen and (max-width: 480px) {
+    .list-top {
+      width: 90%; 
+      margin: 0 auto; 
+    }
+  
+    .list-top h4 {
+      font-size: 20px;
+      padding-left: 0; 
+      text-align: center; 
+    }
+  
+   
+  
+    .list-top li {
+        
+      font-size: 16px; 
+      padding-left: 0; 
+      text-align: justify; 
+    }
+  
+    .list-top strong.mark {
+      display: block; 
+      margin-bottom: 5px; 
+    }
+  }
+  
