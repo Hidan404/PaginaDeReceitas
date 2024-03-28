@@ -58,6 +58,10 @@ img {
     color: #57524E;
 }
 
+.list-top li::marker {
+    color: #c71069;
+}
+
 .list-top h4 {
     color: #c71069;
     font-size: 25px;
@@ -85,6 +89,9 @@ img {
 .list-center li {
     margin: 14px;
 }
+.list-center li::marker{
+    color: #c71069;
+}
 
 hr {
     width: 90%;
@@ -103,6 +110,15 @@ hr {
     margin: 14px;
 }
 
+.list-ordenada li::marker{
+    color: #c71069;
+    font-weight: bolder;
+}
+
+.list-ordenada strong {
+    font-weight: 900;
+}
+
 .title-nutrientes {
     margin-left: 70px;
     color: #c71069;
@@ -115,7 +131,7 @@ hr {
 }
 .title-footer p {
     color: #57524E;
-    padding-left: 70px;
+    padding-left: 60px;
     padding-bottom: 15px;
 }
 
@@ -123,6 +139,7 @@ hr {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    width: 70%;
     padding-bottom: 10px;
 }
 
