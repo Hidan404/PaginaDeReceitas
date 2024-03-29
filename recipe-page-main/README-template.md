@@ -65,6 +65,6 @@ In this project I was able to practice a little flexbox, semantic html and media
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - [Ronald Sousa(Hidan404)](https://www.your-site.com)
+
 
