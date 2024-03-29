@@ -149,14 +149,11 @@ hr {
 
 @media screen and (max-width: 480px) {
     body {
-      background: none;
+      padding: 20px;
     }
   
     .container {
-      width: 100%;
-      margin: 0 auto;
-      padding: 0;
-      border: none;
+      width: 90%;
     }
   
     img {
@@ -166,13 +163,10 @@ hr {
     .container-top h1 {
       font-size: 36px;
       padding-left: 0; 
-      margin-left: 8px;
     }
   
     .container-top p {
-      text-align: justify;
-      padding-left: 12px;
-      padding-right: 12px;
+      padding-left: 0; 
     }
   
     .list-top,
@@ -184,7 +178,7 @@ hr {
   
     .title-ingredientes,
     .title-nutrientes {
-      margin-left: 12px;
+      margin-left: 0;
     }
   
     .list-top ul,
@@ -207,7 +201,7 @@ hr {
     .list-top h4 {
       font-size: 20px;
       padding-left: 0; 
-      
+      text-align: center; 
     }
   
    
