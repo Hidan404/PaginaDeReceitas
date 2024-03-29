@@ -181,16 +181,22 @@ hr {
       margin-left: 15px;
     }
   
-    .list-top ul,
-    .list-ordenada {
+    .list-top ul {
       padding-left: 15px;
     }
     .list-center ul {
       padding-left: 26px;
     }
+
+    .list-ordenada ul {
+
+    }
   
     .box {
       width: 90%;
+    }
+    .title-footer p {
+      padding-left: 15px;
     }
   }
   
